@@ -1,0 +1,66 @@
+Last login: Fri Aug  4 22:10:16 on ttys000
+Marks-MacBook-Pro:~ markstrizalkouski$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	bloc
+Marks-MacBook-Pro:~ markstrizalkouski$ cd documents/Lessons_learned
+Marks-MacBook-Pro:Lessons_learned markstrizalkouski$ ls
+Readme.md
+Marks-MacBook-Pro:Lessons_learned markstrizalkouski$ git init
+error: could not lock config file /Users/markstrizalkouski/Documents/lessons_learned/.git/config: Permission denied
+fatal: could not set 'core.repositoryformatversion' to '0'
+Marks-MacBook-Pro:Lessons_learned markstrizalkouski$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   Readme.md
+
+Marks-MacBook-Pro:Lessons_learned markstrizalkouski$ git commit -m 'Added Text'
+fatal: Unable to create '/Users/markstrizalkouski/documents/Lessons_learned/.git/index.lock': Permission denied
+Marks-MacBook-Pro:Lessons_learned markstrizalkouski$ sudo git commit -m 'Added Text'
+Password:
+[master (root-commit) 2fde4ff] Added Text
+ Committer: System Administrator <root@Marks-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 11 insertions(+)
+ create mode 100644 Readme.md
+Marks-MacBook-Pro:Lessons_learned markstrizalkouski$ git config --global --edit
+
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#       name = Mark Strizalkouski
+#       email = markstrizalkouski@gmail.com
+
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+
